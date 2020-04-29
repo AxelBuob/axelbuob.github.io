@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "screen.css",
+	"sources": [
+		"screen.scss",
+		"_sass/typography.scss",
+		"_sass/layout.scss",
+		"_sass/colors.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"typography\";\n@import \"layout\";\n@import \"colors\";\n@import \"main\";",
+		"body {\n\tfont-family: Helvetica, Arial, Sans-Serif;\n}",
+		"",
+		"",
+		"\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,4BAA4B;CACzC"
+}
