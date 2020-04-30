@@ -1,0 +1,16 @@
+header:
+  - name: Components
+    href: /Components
+  - name: Typography
+    href: /Typography
+  - name: Layouts
+    href: /Layouts
+footer:
+  - name: About
+    href: /About
+  - name: Contact
+    href: /contact
+  - name: Sitemap
+    href: /sitemap.xml
+  - name: Licence
+    href: /licence

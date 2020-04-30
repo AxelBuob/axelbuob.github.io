@@ -1,0 +1,16 @@
+user:
+  name: Axel buob
+  date_of_birth: 1991-10-31
+  address: 2, rue du capitaine Guynemer
+  city: Bois-Colombes
+  postcode: 92270
+  country: France
+  phone: +330650002422
+  email: buobaxel@gmail.com
+  social:
+      - name: Github
+        href: https://github.com/AxelBuob/
+      - name: Twitter
+        href: https://twitter.com/AxelBuob/
+      - name: Linkedin
+        href: https://www.linkedin.com/in/axel-buob-8896431a8/
