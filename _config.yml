@@ -4,13 +4,13 @@ description: >-
   Frontend web developper
 
 baseurl: "/"
-url: ""
+url: "http://axelbuob.github.io"
 permalink: /:categories/:title
 include: ['_pages']
 
 sass:
   sass_dir: _sass
-  style: expanded
+  style: compressed
   
 plugins:
   - jekyll-feed

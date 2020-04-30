@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Axel Buob
 ---
 <div>
 	<h1>About</h1>
