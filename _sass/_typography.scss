@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:wght@400;700&display=swap');
+
+/* Typography */
+body {
+	font-family: 'Source Serif Pro', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+pre {
+	font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Source Sans Pro', Sans-serif;
+		text-transform: uppercase;
+}

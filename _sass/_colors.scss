@@ -1,0 +1,23 @@
+$dark_pink: #c34271;
+$light_pink: #F070A1;
+$bright_green: #16FFBD;
+$light_green: #12C998;
+$dark_green: #439F76;
+
+$primary_color: $bright_green;
+$secondary_color: $dark_pink;
+
+$text-color: #000000;
+$background_color: #FFF;
+
+body {
+  color: $text-color;
+  background-color: $background_color;
+}
+
+header, footer {
+  background-color: $primary_color;
+  h1 {
+    color: $secondary_color;
+  }
+}

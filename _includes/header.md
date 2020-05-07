@@ -1,8 +1,10 @@
 <header>
-	<h1 class="title"><a href="/">Axel Buob</a></h1>
-	<div>
-		<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg>
-		<span class="name">icon-menu</span>
+	<div class="container">
+		<div class="burger-box"></div>
+		<div class="title">
+			<h1><a href="/">Axel Buob</a></h1>
+		</div>
+		<div class="search-box"></div>
 	</div>
 	<nav>
 	  <ul>
@@ -12,4 +14,3 @@
 	  </ul>
 	</nav>
 </header>
-

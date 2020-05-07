@@ -1,7 +1,8 @@
 ---
 ---
-
-@import "typography";
-@import "layout";
-@import "colors";
-@import "main";
+@import "_colors";
+@import "_base";
+@import "_typography";
+@import "_layout";
+@import "_navbar";
+@import "_footer";

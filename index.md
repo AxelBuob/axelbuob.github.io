@@ -4,7 +4,7 @@ title: Axel Buob
 ---
 <div>
 	<h1>About</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolorem labore eligendi tempore minima nostrum, rem facere eaque enim iusto ex magni repudiandae nulla aliquam inventore perferendis dolorum! Soluta, vel.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptatibus recusandae a quam quia odit porro error sapiente earum eaque, placeat eius dicta dolore pariatur excepturi quasi sit, reiciendis. Quas!</p>
 	<p><a href="/about">Read more</a></p>
 </div>
 <div>
@@ -16,7 +16,7 @@ title: Axel Buob
 	  {{ post.excerpt }}
 	  <p><a href="{{ post.url }}">Read more</a></p>
 	</article>
-	{% endfor %}	
+	{% endfor %}
 </div>
 <div>
 	<h1>Contact</h1>
@@ -24,4 +24,3 @@ title: Axel Buob
 		{% include form.md %}
 	</div>
 </div>
-

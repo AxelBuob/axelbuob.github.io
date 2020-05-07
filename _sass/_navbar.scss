@@ -1,0 +1,37 @@
+/* Navbar */
+header {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .burger-box {
+      background-color: $secondary_color;
+      width: 40px;
+      height: 40px;
+    }
+    .title {
+      h1 {
+        margin: 0;
+        color: $secondary_color;
+      }
+    }
+    .search-box {
+      background-color: $secondary_color;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  nav {
+    background-color: yellow;
+    // max-height: 0;
+    overflow: hidden;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        padding: 1em;
+      }
+    }
+  }
+}
