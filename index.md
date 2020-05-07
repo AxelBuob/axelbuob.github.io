@@ -4,7 +4,7 @@ title: Axel Buob
 ---
 <div>
 	<h1>About</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptatibus recusandae a quam quia odit porro error sapiente earum eaque, placeat eius dicta dolore pariatur excepturi quasi sit, reiciendis. Quas!</p>
+	<p><strong>Ce site blog est encore en construction. Merci de votre compréhension.</strong></p>
 	<p><a href="/about">Read more</a></p>
 </div>
 <div>

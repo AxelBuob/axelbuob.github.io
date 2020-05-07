@@ -19,3 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: 'Source Sans Pro', Sans-serif;
 		text-transform: uppercase;
 }
+
+
+strong {
+	display: block;
+	color: orange;
+	border: 3px solid orange;
+	font-size: 3em;
+	line-height: 1.5em;
+	padding: 1.5em;
+}
