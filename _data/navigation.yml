@@ -1,16 +1,10 @@
 header:
-  - name: Components
-    href: /components
-  - name: Typography
-    href: /typography
-  - name: Layouts
-    href: /layouts
-footer:
+
+  - name: Projects
+    href: /Projects
   - name: About
     href: /about
+  - name: Resume
+    href: /resume
   - name: Contact
     href: /contact
-  - name: Sitemap
-    href: /sitemap.xml
-  - name: Licence
-    href: /licence
