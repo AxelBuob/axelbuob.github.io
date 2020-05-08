@@ -2,23 +2,29 @@
 layout: default
 title: Axel Buob
 ---
-<div>
-	<!-- <h1>About</h1> -->
-	<p><strong>Ce blog est encore en construction. Merci de votre compréhension.</strong></p>
-	<!-- <p><a href="/about">Read more</a></p> -->
+<div class="container txt-center">
+	<h1>About</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consequuntur dicta consectetur nostrum! Quas suscipit commodi sed, minima, quisquam impedit minus dolorum. Saepe tempore magnam quae deleniti excepturi placeat obcaecati!</p>
+	<button><a href="/about">Read more</a></button>
 </div>
-<!-- <div>
+
+
+<div class="container txt-center">
 	<h1>Latest posts</h1>
+</div>
+<div class="container flex column between wrap">
 	{% for post in site.posts %}
-	<article>
-	  <h2>{{ post.title }}</h2>
-	  <p>Date: {{ post.date | date_to_string }}</p>
-	  {{ post.excerpt }}
-	  <p><a href="{{ post.url }}">Read more</a></p>
+	<article class="w30">
+		<h2>{{ post.title }}</h2>
+		<p>Date: {{ post.date | date_to_string }}</p>
+		<div class="txt-justify">{{ post.excerpt }}</div>
+		<button><a href="{{ post.url }}">Read more</a></button>
 	</article>
 	{% endfor %}
 </div>
-<div>
+
+
+<!-- <div class="container">
 	<h1>Contact</h1>
 	<div>
 		{% include form.md %}

@@ -10,10 +10,15 @@ $secondary_color: #FCF4C6;
 $succes-color: #A3CF7C;
 $warn-color: #FCCCCC;
 
-$text-color: #000;
+$heading-color: rgba(0, 0, 0, 0.84);
+$text-color: rgba(0, 0, 0, 0.54);
 $background_color: #FFF;
 
 body {
   color: $text-color;
   background-color: $background_color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $heading-color;
 }

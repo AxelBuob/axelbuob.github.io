@@ -18,6 +18,9 @@
       text-decoration: none;
       color: inherit;
     }
+    &_full {
+      display: none;
+    }
   }
 }
 
@@ -31,8 +34,8 @@
     max-height: 1000px;
   }
   &_toggle {
-    height: 2em;
-    width: 3em;
+    height: 1.5em;
+    width: 2.5em;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -64,9 +67,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header_title {
+    &_full {
+      display: inline;
+    }
+    &_short {
+      display: none;
+    }
+  }
+
   .navbar {
+    max-width: 50%;
     max-height: 100em;
-    max-width: 40%;
+
     &_toggle {
       display: none;
     }

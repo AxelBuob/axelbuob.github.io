@@ -1,0 +1,14 @@
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: inherit;
+  border-color: $text-color;
+  border-radius: 0.5em;
+  > a {
+    color: inherit;
+    text-decoration: none;
+    height: 2em;
+    line-height: 2em;
+    text-transform: uppercase;
+    padding: 0 1em;
+  }
+}
