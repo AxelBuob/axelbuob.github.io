@@ -1,5 +1,48 @@
 /* Layout */
-main {
+
+.container {
+  max-width: 1024px;
   width: 90%;
   margin: auto;
+
+}
+
+.flex {
+  display: flex;
+  &.row {
+    flex-direction: row;
+    &-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  &.col {
+    flex-direction: column;
+    &-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+  &.wrap {
+    flex-wrap: wrap;
+    &-reverse {
+      flex-wrap: wrap-reverse;
+    }
+  }
+  &.start {
+    justify-content: flex-start;
+  }
+  &.end {
+    justify-content: flex-end;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+  &.around {
+    justify-content: space-around;
+  }
+  &.evenly {
+    justify-content: space-evenly;
+  }
 }

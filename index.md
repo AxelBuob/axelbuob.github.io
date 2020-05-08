@@ -3,11 +3,11 @@ layout: default
 title: Axel Buob
 ---
 <div>
-	<h1>About</h1>
-	<p><strong>Ce site blog est encore en construction. Merci de votre compréhension.</strong></p>
-	<p><a href="/about">Read more</a></p>
+	<!-- <h1>About</h1> -->
+	<p><strong>Ce blog est encore en construction. Merci de votre compréhension.</strong></p>
+	<!-- <p><a href="/about">Read more</a></p> -->
 </div>
-<div>
+<!-- <div>
 	<h1>Latest posts</h1>
 	{% for post in site.posts %}
 	<article>
@@ -23,4 +23,4 @@ title: Axel Buob
 	<div>
 		{% include form.md %}
 	</div>
-</div>
+</div> -->

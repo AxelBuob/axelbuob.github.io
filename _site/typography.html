@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Typography</title>
 	<link rel="stylesheet" href="/assets/css/screen.css">
+	<!-- Google -->
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<!-- Plugins -->
 	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Axel Buob" />
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Typography | Axel Buob</title>
@@ -21,27 +23,39 @@
 {"@type":"WebPage","headline":"Typography","url":"http://localhost:4000/typography","description":"Frontend web developper","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="/assets/img/favicon_io/site.webmanifest">
+	<!-- Javascript -->
+	<script src="/assets/js/app.js" async defer></script>
 </head>
 <body>
-	<header>
+	<header class="header">
 	<div class="container">
-		<div class="burger-box"></div>
-		<div class="title">
-			<h1><a href="/">Axel Buob</a></h1>
+		<h1 class="header_title">
+			<a href="/">
+				<span class="header_title-short">AB</span>
+				<!-- <span class="header__title-full">Axel Buob</span> -->
+			</a>
+		</h1>
+		<div id="navbar_toggle" class="navbar_toggle">
+				<div class="navbar_toggle_inner"></div>
+				<div class="navbar_toggle_inner"></div>
 		</div>
-		<div class="search-box"></div>
+		<nav id="navbar" class="navbar">
+			<ul>
+				
+				<li><a class="navbar_link" href="/components">Components</a></li>
+				
+				<li><a class="navbar_link" href="/typography">Typography</a></li>
+				
+				<li><a class="navbar_link" href="/layouts">Layouts</a></li>
+				
+			</ul>
+		</nav>
 	</div>
-	<nav>
-	  <ul>
-	  	
-			<li><a href="/Components">Components</a></li>
-	  	
-			<li><a href="/Typography">Typography</a></li>
-	  	
-			<li><a href="/Layouts">Layouts</a></li>
-	  	
-	  </ul>
-	</nav>
 </header>
 
 	<main><h1>Typography</h1>
@@ -56,31 +70,30 @@
 </div>
 
 </main>
-	<footer>
-<div class="container">
-	<ul>
-		
-			<li><a href="https://github.com/AxelBuob/">Github</a></li>
-		
-			<li><a href="https://twitter.com/AxelBuob/">Twitter</a></li>
-		
-			<li><a href="https://www.linkedin.com/in/axel-buob-8896431a8/">Linkedin</a></li>
-		
-	</ul>
-	<ul>
-		
-			<li><a href="/about">About</a></li>
-		
-			<li><a href="/contact">Contact</a></li>
-		
-			<li><a href="/sitemap.xml">Sitemap</a></li>
-		
-			<li><a href="/licence">Licence</a></li>
-		
-	</ul>
-</div>
-</footer>
+	<!-- <footer>
+	<div class="container">
+		<ul>
+			
+				<li><a href="https://github.com/AxelBuob/">Github</a></li>
+			
+				<li><a href="https://twitter.com/AxelBuob/">Twitter</a></li>
+			
+				<li><a href="https://www.linkedin.com/in/axel-buob-8896431a8/">Linkedin</a></li>
+			
+		</ul>
+		<ul>
+			
+				<li><a href="/about">About</a></li>
+			
+				<li><a href="/contact">Contact</a></li>
+			
+				<li><a href="/sitemap.xml">Sitemap</a></li>
+			
+				<li><a href="/licence">Licence</a></li>
+			
+		</ul>
+	</div>
+</footer> -->
 
 </body>
-<script src="/assets/js/app.js"></script>
 </html>

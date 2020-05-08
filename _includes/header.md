@@ -1,16 +1,21 @@
-<header>
+<header class="header">
 	<div class="container">
-		<div class="burger-box"></div>
-		<div class="title">
-			<h1><a href="/">Axel Buob</a></h1>
+		<h1 class="header_title">
+			<a href="/">
+				<span class="header_title-short">AB</span>
+				<!-- <span class="header__title-full">Axel Buob</span> -->
+			</a>
+		</h1>
+		<div id="navbar_toggle" class="navbar_toggle">
+				<div class="navbar_toggle_inner"></div>
+				<div class="navbar_toggle_inner"></div>
 		</div>
-		<div class="search-box"></div>
+		<nav id="navbar" class="navbar">
+			<ul>
+				{% for link in site.data.navigation.header %}
+				<li><a class="navbar_link" href="{{ link.href }}">{{ link.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
 	</div>
-	<nav>
-	  <ul>
-	  	{% for link in site.data.navigation.header %}
-			<li><a href="{{ link.href }}">{{ link.name }}</a></li>
-	  	{% endfor %}
-	  </ul>
-	</nav>
 </header>

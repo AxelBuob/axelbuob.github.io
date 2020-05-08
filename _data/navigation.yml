@@ -1,10 +1,10 @@
 header:
   - name: Components
-    href: /Components
+    href: /components
   - name: Typography
-    href: /Typography
+    href: /typography
   - name: Layouts
-    href: /Layouts
+    href: /layouts
 footer:
   - name: About
     href: /about

@@ -1,104 +1,137 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:wght@400;700&display=swap");
-body {
-  color: #000000;
-  background-color: #FFF;
-}
-
-header, footer {
-  background-color: #16FFBD;
-}
-header h1, footer h1 {
-  color: #c34271;
-}
-
 /* Base */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
+body {
+  color: #000;
+  background-color: #FFF;
 }
 
 /* Typography */
 body {
-  font-family: 'Source Serif Pro', serif;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-pre {
-  font-family: 'Source Code Pro', monospace;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', Sans-serif;
-  text-transform: uppercase;
-}
-
-strong {
-  display: block;
-  color: orange;
-  border: 3px solid orange;
-  font-size: 3em;
-  line-height: 1.5em;
-  padding: 1.5em;
+  font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
 }
 
 /* Layout */
-main {
+.container {
+  max-width: 1024px;
   width: 90%;
   margin: auto;
 }
 
-/* Navbar */
-header .container {
+.flex {
   display: flex;
+}
+.flex.row {
   flex-direction: row;
+}
+.flex.row-reverse {
+  flex-direction: row-reverse;
+}
+.flex.col {
+  flex-direction: column;
+}
+.flex.col-reverse {
+  flex-direction: column-reverse;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+.flex.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.flex.start {
+  justify-content: flex-start;
+}
+.flex.end {
+  justify-content: flex-end;
+}
+.flex.center {
+  justify-content: center;
+}
+.flex.between {
   justify-content: space-between;
 }
-header .container .burger-box {
-  background-color: #c34271;
-  width: 40px;
-  height: 40px;
+.flex.around {
+  justify-content: space-around;
 }
-header .container .title h1 {
-  margin: 0;
-  color: #c34271;
-}
-header .container .search-box {
-  background-color: #c34271;
-  width: 40px;
-  height: 40px;
-}
-header nav {
-  background-color: yellow;
-  overflow: hidden;
-}
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-header nav ul li {
-  padding: 1em;
+.flex.evenly {
+  justify-content: space-evenly;
 }
 
-footer .container {
+.header {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+.header > .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-footer .container ul {
-  padding: 0;
+.header_title {
   margin: 0;
-  list-style-type: none;
 }
-footer .container ul li {
-  display: inline-block;
+.header_title > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #FFF;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all .25s ease;
+}
+.navbar.active {
+  max-height: 1000px;
+}
+.navbar_toggle {
+  height: 2em;
+  width: 3em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.navbar_toggle_inner {
+  width: 100%;
+  height: .25em;
+  background-color: #000;
+}
+.navbar > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 1em 0;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    max-height: 100em;
+    max-width: 40%;
+  }
+  .navbar_toggle {
+    display: none;
+  }
+  .navbar > ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

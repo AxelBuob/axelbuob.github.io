@@ -5,14 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="/assets/css/screen.css">
+	<!-- Google -->
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<!-- Plugins -->
 	{% feed_meta %}
 	{% seo %}
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="/assets/img/favicon_io/site.webmanifest">
+	<!-- Javascript -->
+	<script src="/assets/js/app.js" async defer></script>
 </head>
 <body>
 	{% include header.md %}
 	<main>{{ content }}</main>
 	{% include footer.md %}
 </body>
-<script src="/assets/js/app.js"></script>
 </html>
