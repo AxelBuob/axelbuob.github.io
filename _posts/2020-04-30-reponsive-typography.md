@@ -2,7 +2,7 @@
 layout: post
 title:  "Responsive typography"
 date:   2020-04-30
-category: typography
+tags: [HTML5, CSS3, Sass, Javascript]
 excerpt_separator: <!--more-->
 ---
 

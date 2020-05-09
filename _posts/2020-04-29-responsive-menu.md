@@ -2,7 +2,7 @@
 layout: post
 title:  "Responsive menu"
 date:   2020-04-29
-category: components
+tags: [HTML5, CSS3, Sass, Javascript]
 excerpt_separator: <!--more-->
 ---
 

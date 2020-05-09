@@ -2,7 +2,7 @@
 layout: post
 title:  "Responsive layout"
 date:   2020-04-29
-category: layouts
+tags: [HTML5, CSS3, Sass, Javascript]
 excerpt_separator: <!--more-->
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni soluta, adipisci quod atque perferendis at vitae ea. Aut doloremque, nulla molestias nisi omnis consequatur deserunt modi quis suscipit distinctio!

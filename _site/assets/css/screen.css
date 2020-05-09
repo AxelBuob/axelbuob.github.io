@@ -1,5 +1,15 @@
-/* Base */
+/* Colors */
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:wght@100;400;700&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400&display=swap");
+body {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Base */
 * {
   box-sizing: border-box;
 }
@@ -8,13 +18,9 @@ body {
   margin: 0;
 }
 
-body {
-  color: rgba(0, 0, 0, 0.5);
-  background-color: #FFF;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: rgba(0, 0, 0, 0.85);
+.post {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 1em;
 }
 
 /* Typography */
@@ -24,10 +30,6 @@ body {
 
 .txt-center {
   text-align: center;
-}
-
-.txt-justify {
-  text-align: justify-content;
 }
 
 /* Layout */
@@ -76,27 +78,57 @@ body {
 .flex.evenly {
   justify-content: space-evenly;
 }
-
-.w10 {
-  width: 10%;
+.flex .sm-basis-1 {
+  flex-basis: 100%;
+}
+.flex .sm-basis-2 {
+  flex-basis: 50%;
+}
+.flex .sm-basis-3 {
+  flex-basis: 33%;
+}
+.flex .sm-basis-4 {
+  flex-basis: 25%;
+}
+.flex .sm-basis-5 {
+  flex-basis: 20%;
 }
 
-.w20 {
-  width: 20%;
+@media screen and (min-width: 768px) {
+  .flex .md-basis-1 {
+    flex-basis: 100%;
+  }
+  .flex .md-basis-2 {
+    flex-basis: 50%;
+  }
+  .flex .md-basis-3 {
+    flex-basis: 33%;
+  }
+  .flex .md-basis-4 {
+    flex-basis: 25%;
+  }
+  .flex .md-basis-5 {
+    flex-basis: 20%;
+  }
 }
-
-.w30 {
-  width: 30%;
+@media screen and (min-width: 1024px) {
+  .flex .lg-basis-1 {
+    flex-basis: 100%;
+  }
+  .flex .lg-basis-2 {
+    flex-basis: 50%;
+  }
+  .flex .lg-basis-3 {
+    flex-basis: 33%;
+  }
+  .flex .lg-basis-4 {
+    flex-basis: 25%;
+  }
+  .flex .lg-basis-5 {
+    flex-basis: 20%;
+  }
 }
-
-.w40 {
-  width: 40%;
-}
-
-.w50 {
-  width: 50%;
-}
-
+/* Navbar */
 .header {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
 }
@@ -108,21 +140,20 @@ body {
   flex-wrap: wrap;
 }
 .header_title {
-  margin: 0;
+  margin: 0.35em 0;
+  padding: 0.2em;
   font-size: 1.2em;
-  padding: 0.25em 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 50%;
 }
 .header_title > a {
   text-decoration: none;
   color: inherit;
 }
-.header_title_full {
-  display: none;
-}
 
 .navbar {
-  width: 100%;
-  background-color: #FFF;
+  flex-basis: 100%;
   overflow: hidden;
   max-height: 0px;
   transition: all .25s ease;
@@ -138,7 +169,7 @@ body {
 }
 .navbar_toggle {
   height: 1.5em;
-  width: 2em;
+  flex-basis: 2em;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -147,7 +178,7 @@ body {
 .navbar_toggle_inner {
   width: 100%;
   height: .20em;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .navbar > ul {
   margin: 0;
@@ -166,13 +197,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .header_title_full {
-    display: inline;
-  }
-  .header_title_short {
-    display: none;
-  }
-
   .navbar {
     max-width: 50%;
     max-height: 100em;
@@ -185,17 +209,19 @@ body {
     justify-content: space-between;
   }
 }
-button {
+/* Buttons */
+button, .btn {
   background-color: rgba(0, 0, 0, 0);
   color: inherit;
-  border-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.25);
   border-radius: 0.5em;
+  cursor: pointer;
 }
-button > a {
-  color: inherit;
+
+.btn {
   text-decoration: none;
-  height: 2em;
-  line-height: 2em;
-  text-transform: uppercase;
-  padding: 0 1em;
+}
+.btn-big {
+  font-size: 2em;
+  padding: 0.5em;
 }

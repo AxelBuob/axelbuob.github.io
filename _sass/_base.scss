@@ -6,3 +6,8 @@
 body {
   margin: 0;
 }
+
+.post {
+  border: 1px solid $shadow-color;
+  padding-bottom: 1em;
+}
