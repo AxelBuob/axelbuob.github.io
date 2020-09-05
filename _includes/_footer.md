@@ -1,4 +1,4 @@
-<!-- <footer>
+<footer>
 	<div class="container">
 		<ul>
 			{% for link in site.data.main.user.social %}
@@ -11,4 +11,4 @@
 			{% endfor %}
 		</ul>
 	</div>
-</footer> -->
+</footer>

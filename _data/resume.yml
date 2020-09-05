@@ -1,0 +1,58 @@
+skills:
+  - name: HTML5
+  - name: CSS3
+  - name: Javascript
+  - name: Bootstrap
+  - name: Sass
+  - name: Linux
+experiences:
+  - name: Fleuriste
+    date: Décembre 2019 à aujourd'hui
+    company: Le 107
+    where: Paris 75016
+  - name: Jardinier
+    date: Avril 2019 à Septembre 2019
+    company: Mairie de Bois-Colombes
+    where: Bois-Colombes 92270
+  - name: Employé polyvalent
+    date: Mai 2016 à Octobre 2018
+    company: L'eau vive
+    where: Courbevoie 92400
+  - name: Assistant technique
+    date: Mai 2014 à Avrl 2016
+    company: Centre national des ats platiques (CNAP)
+    where: La Défense 92911
+  - name: Fleuriste
+    date: Mars 2013 à Juin 2013
+    company: Boucicaut
+    where: Paris 75015
+  - name: Conseiller de vente
+    date: Septembre 2011 à août 2012
+    company: Botanic
+    where: Suresnes 92150
+  - name: Apprenti fleuriste
+    date: Septembre 2007 à août 2011
+    company: Amaryllis
+    where: La Garenne-Colombes 92250
+formations:
+  - name: Administrateur système et réseau CISCO
+    date: Septembre à décembre 2013
+    school: GRETA MTE 77
+    where:  Lognes 77185
+  - name: Brevet professionelle (BP), Fleuriste
+    date: Septembre 2009 à août 2011
+    school: École des fleuristes de Paris
+    where: Paris 75019
+  - name: Certificat d'aptitude professionelle (CAP), Fleuriste
+    date: Septembre 2007 à août 2009
+    school: École des fleuristes de Paris
+    where: Paris 75019
+languages:
+  - name: Anglais
+    level: B1, upper intermediate
+interests:
+  - name: Voyages
+  - name: Jeux-vidéo
+  - name: Musique
+  - name: Cinéma
+  - name: Art

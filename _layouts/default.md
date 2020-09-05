@@ -19,8 +19,8 @@
 	<script src="/assets/js/app.js" async defer></script>
 </head>
 <body>
-	{% include header.md %}
+	{% include _header.md %}
 	<main>{{ content }}</main>
-	{% include footer.md %}
+	{% include _footer.md %}
 </body>
 </html>

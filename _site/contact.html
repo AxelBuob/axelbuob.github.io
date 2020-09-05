@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://localhost:4000/contact" />
 <meta property="og:site_name" content="Axel Buob" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Contact","url":"http://localhost:4000/contact","description":"Frontend web developper","@context":"https://schema.org"}</script>
+{"description":"Frontend web developper","@type":"WebPage","headline":"Contact","url":"http://localhost:4000/contact","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<!-- Favicon -->
@@ -47,11 +47,11 @@
 		<nav id="navbar" class="navbar">
 			<ul>
 				
-				<li><a class="navbar_link" href="/Projects">Projects</a></li>
+				<li><a class="navbar_link" href="/about">À propos</a></li>
 				
-				<li><a class="navbar_link" href="/about">About</a></li>
+				<li><a class="navbar_link" href="/projects">Projets</a></li>
 				
-				<li><a class="navbar_link" href="/resume">Resume</a></li>
+				<li><a class="navbar_link" href="/resume">CV</a></li>
 				
 				<li><a class="navbar_link" href="/contact">Contact</a></li>
 				
@@ -60,7 +60,9 @@
 	</div>
 </header>
 
-	<main><form accept-charset="UTF-8" action="https://getform.io/f/54fc0929-ad91-4b48-984a-716d528786ea" method="POST">
+	<main><div class="container">
+  <h1>Envoyer moi un petit mot doux</h1>
+  <form accept-charset="UTF-8" action="https://getform.io/f/54fc0929-ad91-4b48-984a-716d528786ea" method="POST">
   <input type="text" name="name" />
   <input type="email" name="email" />
   <input type="tel" name="tel" />
@@ -68,9 +70,10 @@
   <div class="g-recaptcha" data-sitekey="6LfBbvAUAAAAABFDnn9DEvXecwHuAUvXZ4aC4BVf"></div>
   <button type="submit">Send</button>
 </form>
-
+        
+</div>
 </main>
-	<!-- <footer>
+	<footer>
 	<div class="container">
 		<ul>
 			
@@ -83,9 +86,11 @@
 		</ul>
 		<ul>
 			
+				<li><a href="/licence">Licence</a></li>
+			
 		</ul>
 	</div>
-</footer> -->
+</footer>
 
 </body>
 </html>

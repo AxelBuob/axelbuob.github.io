@@ -18,11 +18,6 @@ body {
   margin: 0;
 }
 
-.post {
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding-bottom: 1em;
-}
-
 /* Typography */
 body {
   font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
@@ -36,7 +31,8 @@ body {
 .container {
   max-width: 1024px;
   width: 90%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -224,4 +220,8 @@ button, .btn {
 .btn-big {
   font-size: 2em;
   padding: 0.5em;
+}
+
+.post {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
