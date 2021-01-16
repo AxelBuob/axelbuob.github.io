@@ -17,6 +17,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - github-pages
+  - jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+    - last 2 versions
 
 exclude:
   - .sass-cache/
@@ -32,9 +37,3 @@ exclude:
   - .DS_Store
   - config.rb
   - README.txt
-  
-
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 permalink: /projects
 layout: default
-title: Projets
+title: Projects
 ---
 <div class="container">
     <h1>Les 12 travaux d'Hercule</h1>

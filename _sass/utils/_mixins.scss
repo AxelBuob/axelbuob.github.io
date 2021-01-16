@@ -1,0 +1,17 @@
+@mixin box-shadow {
+  box-shadow: 0 4px 12px 0 $shadow-color;
+}
+
+@mixin heading-color($color: lightness-shift($primary-color)){
+  color: $color;
+}
+
+@mixin txt-input-palette($palettes) {
+    @each $state, $value in $palettes {
+      &:#{$state} {
+        border: .1rem solid map-get($value, border);
+        background-color: map-get($value, bg);
+        color: map-get($value, txt);
+      }
+    }
+}

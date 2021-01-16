@@ -1,9 +1,33 @@
 ---
 ---
-@import "_colors";
-@import "_base";
-@import "_typography";
-@import "_layout";
-@import "_navbar";
-@import "_button";
-@import "_post";
+
+/*
+1. Utils
+  1. Variables
+  2. Functions
+  3. Mixins
+  4. Placeholders
+2. Vendors
+3. Base
+4. Components
+5. Layouts
+6. Pages
+7. Themes
+*/
+
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+
+@import "base/base";
+@import "base/colors";
+@import "base/typography";
+
+@import "components/button";
+@import "components/post";
+
+@import "layouts/layout";
+@import "layouts/flex";
+@import "layouts/grid";
+@import "layouts/navbar";
+@import "layouts/form";

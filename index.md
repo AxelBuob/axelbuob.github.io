@@ -2,7 +2,7 @@
 layout: default
 title: Axel Buob
 ---
-<div class="container txt-center">
+<div class="container intro txt-center">
   <h1>Hey..</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consequuntur dicta consectetur nostrum! Quas suscipit commodi sed, minima, quisquam impedit minus dolorum. Saepe tempore magnam quae deleniti excepturi placeat obcaecati!</p>
   <button><a class="btn btn-big" href="/about">Lire la suite</a></button>
@@ -11,7 +11,7 @@ title: Axel Buob
 <div class="container flex column between wrap">
   {% for post in site.posts %}
   {% include _tags.md %}
-  <article class="sm-basis-1 md-basis-2 lg-basis-3 post">
+  <article class="post">
     <ul class="post_tags">{{ tags }}</ul>
     <h2 class="post_title">{{ post.title }}</h2>
     <div class="post_excerpt">{{ post.excerpt }}</div>

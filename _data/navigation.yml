@@ -1,9 +1,9 @@
 header:
-  - name: À propos
+  - name: About
     href: /about
-  - name: Projets
+  - name: Projects
     href: /projects
-  - name: CV
+  - name: Resume
     href: /resume
   - name: Contact
     href: /contact

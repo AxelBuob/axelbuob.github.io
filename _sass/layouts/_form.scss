@@ -1,0 +1,7 @@
+.form {
+  &_field {
+    & input {
+      @include txt-input-palette($txt-input-palette);
+    }
+  }
+}
